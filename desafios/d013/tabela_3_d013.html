@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 3 - Desafio 13</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        thead,tfoot{
+          background-color: gray;
+            color: white;  
+        }
+        .color_celula{
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" class="color_titulo">Área</th>
+                <th rowspan="2" class="color_titulo">Diciplinas</th>
+                <th colspan="2" class="color_titulo">Notas</th>
+                <th rowspan="2" class="color_titulo">Médias</th>
+            </tr>
+            <tr>
+                <th class="color_titulo">Nota 1</th>
+                <th class="color_titulo">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Exatas</th>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="color_celula">Média de Exatas:</th>
+                <td class="color_celula">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geográfia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4">Média de Humanas</th>
+            <td>0.0</td>
+        </tfoot>
+    </table>
+</body>
+</html>
